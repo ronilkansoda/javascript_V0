@@ -1,0 +1,88 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card {
+    height: 170px;
+    width: 60%;
+    background-color: black;
+    display: flex;
+    position: relative;    
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 10px;
+}
+.left-card
+{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.thumn img
+{
+    max-height: 150px;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    /* margin: 10px; */
+    padding: 0px 12px 0px 12px ;
+    border-radius: 26px;
+}
+.right-card
+{
+    height: inherit;
+    gap: 10px;
+    display: flex;
+    position: relative;    
+    align-items: flex-start;
+    flex-direction: column;
+}
+.card-desc
+{
+    display: flex;
+}
+.separator
+{
+    width: 20px;
+    /* margin: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text
+{
+    color: white;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1.2rem;
+    word-wrap: normal;
+}
+h3
+{
+    margin: 20px 0px 15px 0px ;
+}
+.text-desc
+{
+    color: white;
+    font-size: 15px;
+    font-family: Roboto, Arial, sans-serif;
+}
+#status
+{
+    position: absolute;
+    left: 205px;
+    top: 127px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
